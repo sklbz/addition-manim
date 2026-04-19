@@ -1,0 +1,52 @@
+Launching jupyter-lab
+[W 2026-04-19 18:02:41.972 ServerApp] ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.
+[I 2026-04-19 18:02:42.018 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-04-19 18:02:42.018 ServerApp] jupyter_offlinenotebook | extension was successfully linked.
+[I 2026-04-19 18:02:42.018 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2026-04-19 18:02:42.020 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[W 2026-04-19 18:02:42.022 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2026-04-19 18:02:42.022 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2026-04-19 18:02:42.022 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2026-04-19 18:02:42.022 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2026-04-19 18:02:42.022 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2026-04-19 18:02:42.035 ServerApp] jupyterlab | extension was successfully linked.
+[I 2026-04-19 18:02:42.068 ServerApp] notebook | extension was successfully linked.
+[I 2026-04-19 18:02:42.068 ServerApp] Writing Jupyter server cookie secret to /home/jovyan/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2026-04-19 18:02:42.271 ServerApp] notebook_shim | extension was successfully linked.
+[I 2026-04-19 18:02:42.282 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2026-04-19 18:02:42.284 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2026-04-19 18:02:42.284 ServerApp] jupyter_offlinenotebook | extension was successfully loaded.
+[I 2026-04-19 18:02:42.285 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2026-04-19 18:02:42.285 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2026-04-19 18:02:42.287 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.11/site-packages/jupyterlab
+[I 2026-04-19 18:02:42.287 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 2026-04-19 18:02:42.288 LabApp] Extension Manager is 'pypi'.
+[I 2026-04-19 18:02:42.317 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2026-04-19 18:02:42.320 ServerApp] notebook | extension was successfully loaded.
+[I 2026-04-19 18:02:42.320 ServerApp] Will shut down after 600 seconds with no kernels.
+[I 2026-04-19 18:02:42.321 ServerApp] Serving notebooks from local directory: /home/jovyan
+[I 2026-04-19 18:02:42.321 ServerApp] Jupyter Server 2.17.0 is running at:
+[I 2026-04-19 18:02:42.321 ServerApp] http://jupyter-sklbz-addition-manim-h25mc4mf:8888/user/sklbz-addition-manim-h25mc4mf/lab?token=...
+[I 2026-04-19 18:02:42.321 ServerApp]     http://127.0.0.1:8888/user/sklbz-addition-manim-h25mc4mf/lab?token=...
+[I 2026-04-19 18:02:42.321 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2026-04-19 18:02:42.323 ServerApp] No web browser found: Error('could not locate runnable browser').
+[I 2026-04-19 18:02:42.535 ServerApp] Skipped non-installed server(s): basedpyright, bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyrefly, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2026-04-19 18:02:44.487 ServerApp] 302 GET /user/sklbz-addition-manim-h25mc4mf/?token=[secret] (@77.243.28.126) 0.68ms
+[I 2026-04-19 18:02:52.583 LabApp] Build is up to date
+[I 2026-04-19 18:03:04.875 ServerApp] Writing notebook-signing key to /home/jovyan/.local/share/jupyter/notebook_secret
+[W 2026-04-19 18:03:04.875 ServerApp] Notebook addition.ipynb is not trusted
+[W 2026-04-19 18:03:05.167 ServerApp] 404 GET /user/sklbz-addition-manim-h25mc4mf/files/media/jupyter/DotsCreation%402026-04-19%4015-42-22.mp4?_xsrf=[secret]&1776621784901 (4448fee92a3540bdb834f92254c5e304@77.243.28.126) 17.20ms referer=https://hub.gesis.mybinder.org/user/sklbz-addition-manim-h25mc4mf/lab/tree/addition.ipynb
+[I 2026-04-19 18:03:05.831 ServerApp] Kernel started: a1cd3836-8816-4051-b8d5-1b0d043affbf
+[I 2026-04-19 18:03:05.833 ServerApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 2026-04-19 18:03:05.833 ServerApp] Culling kernels even with connected clients
+/srv/conda/envs/notebook/lib/python3.11/json/encoder.py:258: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-04-19 18:03:06.237 ServerApp] Connecting to kernel a1cd3836-8816-4051-b8d5-1b0d043affbf.
+[W 2026-04-19 18:03:06.240 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2026-04-19 18:03:06.372 ServerApp] Starting buffering for a1cd3836-8816-4051-b8d5-1b0d043affbf:875a4a0a-4d1f-40ad-a6bf-0159381e9655
+[I 2026-04-19 18:03:06.426 ServerApp] Connecting to kernel a1cd3836-8816-4051-b8d5-1b0d043affbf.
+[I 2026-04-19 18:03:06.621 ServerApp] Connecting to kernel a1cd3836-8816-4051-b8d5-1b0d043affbf.
+[I 2026-04-19 18:04:27.568 ServerApp] New terminal with automatic name: 1
+[I 2026-04-19 18:04:43.307 ServerApp] Saving file at /addition.ipynb
+[I 2026-04-19 18:04:59.312 ServerApp] Saving file at /README.md
