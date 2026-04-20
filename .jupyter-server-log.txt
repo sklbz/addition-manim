@@ -105,3 +105,63 @@ Launching jupyter-lab
 [I 2026-04-20 10:19:50.191 ServerApp] Saving file at /addition.ipynb
 [I 2026-04-20 10:19:54.096 ServerApp] Saving file at /addition.ipynb
 [I 2026-04-20 10:19:54.489 ServerApp] Saving file at /addition.ipynb
+Launching jupyter-lab
+[W 2026-04-20 13:54:20.831 ServerApp] ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.
+[I 2026-04-20 13:54:20.924 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-04-20 13:54:20.924 ServerApp] jupyter_offlinenotebook | extension was successfully linked.
+[I 2026-04-20 13:54:20.924 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2026-04-20 13:54:20.927 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[W 2026-04-20 13:54:20.928 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2026-04-20 13:54:20.928 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2026-04-20 13:54:20.928 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2026-04-20 13:54:20.928 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2026-04-20 13:54:20.928 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2026-04-20 13:54:20.930 ServerApp] jupyterlab | extension was successfully linked.
+[I 2026-04-20 13:54:20.962 ServerApp] notebook | extension was successfully linked.
+[I 2026-04-20 13:54:21.162 ServerApp] notebook_shim | extension was successfully linked.
+[I 2026-04-20 13:54:21.174 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2026-04-20 13:54:21.175 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2026-04-20 13:54:21.176 ServerApp] jupyter_offlinenotebook | extension was successfully loaded.
+[I 2026-04-20 13:54:21.176 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2026-04-20 13:54:21.177 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2026-04-20 13:54:21.179 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.11/site-packages/jupyterlab
+[I 2026-04-20 13:54:21.179 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 2026-04-20 13:54:21.179 LabApp] Extension Manager is 'pypi'.
+[I 2026-04-20 13:54:21.208 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2026-04-20 13:54:21.211 ServerApp] notebook | extension was successfully loaded.
+[I 2026-04-20 13:54:21.211 ServerApp] Will shut down after 600 seconds with no kernels.
+[I 2026-04-20 13:54:21.212 ServerApp] Serving notebooks from local directory: /home/jovyan
+[I 2026-04-20 13:54:21.212 ServerApp] Jupyter Server 2.17.0 is running at:
+[I 2026-04-20 13:54:21.212 ServerApp] http://jupyter-sklbz-addition-manim-efslaaws:8888/user/sklbz-addition-manim-efslaaws/lab?token=...
+[I 2026-04-20 13:54:21.212 ServerApp]     http://127.0.0.1:8888/user/sklbz-addition-manim-efslaaws/lab?token=...
+[I 2026-04-20 13:54:21.212 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2026-04-20 13:54:21.222 ServerApp] No web browser found: Error('could not locate runnable browser').
+[I 2026-04-20 13:54:21.462 ServerApp] 302 GET /user/sklbz-addition-manim-efslaaws/?token=[secret] (@77.243.24.243) 10.53ms
+[I 2026-04-20 13:54:21.480 ServerApp] Skipped non-installed server(s): basedpyright, bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyrefly, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2026-04-20 13:54:36.714 LabApp] Build is up to date
+[I 2026-04-20 13:54:37.082 ServerApp] New terminal with automatic name: 1
+[W 2026-04-20 13:54:38.058 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2026-04-20 13:54:39.338 ServerApp] Kernel started: 9948b675-1bbc-4889-ab3c-4806440137d5
+[I 2026-04-20 13:54:39.340 ServerApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 2026-04-20 13:54:39.340 ServerApp] Culling kernels even with connected clients
+[I 2026-04-20 13:54:39.787 ServerApp] Connecting to kernel 9948b675-1bbc-4889-ab3c-4806440137d5.
+/srv/conda/envs/notebook/lib/python3.11/json/encoder.py:258: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-04-20 13:54:39.959 ServerApp] Starting buffering for 9948b675-1bbc-4889-ab3c-4806440137d5:b81767f7-8d9a-4f81-9f8c-84398c9949f1
+[I 2026-04-20 13:54:40.021 ServerApp] Connecting to kernel 9948b675-1bbc-4889-ab3c-4806440137d5.
+[I 2026-04-20 13:54:40.238 ServerApp] Connecting to kernel 9948b675-1bbc-4889-ab3c-4806440137d5.
+[I 2026-04-20 13:56:44.263 ServerApp] Saving file at /addition.ipynb
+[I 2026-04-20 13:56:44.274 ServerApp] Saving file at /addition.ipynb
+[I 2026-04-20 13:56:55.049 ServerApp] Starting buffering for 9948b675-1bbc-4889-ab3c-4806440137d5:7c3c11d4-6c57-4261-927a-e2cc1e326015
+[I 2026-04-20 13:57:02.168 ServerApp] Connecting to kernel 9948b675-1bbc-4889-ab3c-4806440137d5.
+[I 2026-04-20 13:57:04.766 ServerApp] Connecting to kernel 9948b675-1bbc-4889-ab3c-4806440137d5.
+[I 2026-04-20 13:57:06.772 LabApp] Build is up to date
+[I 2026-04-20 13:57:14.725 ServerApp] Saving file at /addition.ipynb
+[I 2026-04-20 13:57:15.201 ServerApp] Saving file at /addition.ipynb
+[I 2026-04-20 13:57:47.596 ServerApp] New terminal with automatic name: 2
+[I 2026-04-20 13:59:16.430 ServerApp] Saving file at /addition.ipynb
+[I 2026-04-20 13:59:16.755 ServerApp] Saving file at /addition.ipynb
+[I 2026-04-20 13:59:17.195 ServerApp] Saving file at /addition.ipynb
+[I 2026-04-20 13:59:17.496 ServerApp] Saving file at /addition.ipynb
+[I 2026-04-20 14:00:52.165 ServerApp] Saving file at /addition.ipynb
