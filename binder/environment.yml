@@ -7,6 +7,3 @@ dependencies:
   - scipy
   - mpmath
   - jupyter
-  - texlive-core
-  - texlive-latex-extra
-  - texlive-fonts-recommended
