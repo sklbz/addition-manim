@@ -165,3 +165,7 @@ Launching jupyter-lab
 [I 2026-04-20 13:59:17.195 ServerApp] Saving file at /addition.ipynb
 [I 2026-04-20 13:59:17.496 ServerApp] Saving file at /addition.ipynb
 [I 2026-04-20 14:00:52.165 ServerApp] Saving file at /addition.ipynb
+[I 2026-04-20 14:10:52.856 ServerApp] Saving file at /addition.ipynb
+[I 2026-04-20 14:12:53.203 ServerApp] Saving file at /addition.ipynb
+[I 2026-04-20 14:14:05.129 ServerApp] Saving file at /binder/environment.yml
+[I 2026-04-20 14:14:08.214 ServerApp] Saving file at /addition.ipynb
