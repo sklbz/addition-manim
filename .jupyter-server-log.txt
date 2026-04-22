@@ -687,3 +687,62 @@ Launching jupyter-lab
 [I 2026-04-21 13:33:50.563 ServerApp] Saving file at /addition.ipynb
 [I 2026-04-21 13:34:46.172 ServerApp] Saving file at /addition.ipynb
 [I 2026-04-21 13:34:46.820 ServerApp] Saving file at /addition.ipynb
+Launching jupyter-lab
+[W 2026-04-22 09:00:53.551 ServerApp] ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.
+[I 2026-04-22 09:00:53.594 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-04-22 09:00:53.594 ServerApp] jupyter_offlinenotebook | extension was successfully linked.
+[I 2026-04-22 09:00:53.594 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2026-04-22 09:00:53.596 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[W 2026-04-22 09:00:53.597 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2026-04-22 09:00:53.598 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2026-04-22 09:00:53.598 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2026-04-22 09:00:53.598 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2026-04-22 09:00:53.598 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2026-04-22 09:00:53.599 ServerApp] jupyterlab | extension was successfully linked.
+[I 2026-04-22 09:00:53.651 ServerApp] notebook | extension was successfully linked.
+[I 2026-04-22 09:00:53.870 ServerApp] notebook_shim | extension was successfully linked.
+[I 2026-04-22 09:00:53.884 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2026-04-22 09:00:53.885 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2026-04-22 09:00:53.885 ServerApp] jupyter_offlinenotebook | extension was successfully loaded.
+[I 2026-04-22 09:00:53.886 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2026-04-22 09:00:53.886 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2026-04-22 09:00:53.889 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.11/site-packages/jupyterlab
+[I 2026-04-22 09:00:53.889 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 2026-04-22 09:00:53.889 LabApp] Extension Manager is 'pypi'.
+[I 2026-04-22 09:00:53.925 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2026-04-22 09:00:53.929 ServerApp] notebook | extension was successfully loaded.
+[I 2026-04-22 09:00:53.929 ServerApp] Will shut down after 600 seconds with no kernels.
+[I 2026-04-22 09:00:53.930 ServerApp] Serving notebooks from local directory: /home/jovyan
+[I 2026-04-22 09:00:53.930 ServerApp] Jupyter Server 2.17.0 is running at:
+[I 2026-04-22 09:00:53.930 ServerApp] http://jupyter-sklbz-addition-manim-h14qlxll:8888/user/sklbz-addition-manim-h14qlxll/lab?token=...
+[I 2026-04-22 09:00:53.930 ServerApp]     http://127.0.0.1:8888/user/sklbz-addition-manim-h14qlxll/lab?token=...
+[I 2026-04-22 09:00:53.930 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2026-04-22 09:00:53.949 ServerApp] No web browser found: Error('could not locate runnable browser').
+[I 2026-04-22 09:00:54.189 ServerApp] Skipped non-installed server(s): basedpyright, bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyrefly, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2026-04-22 09:00:55.278 ServerApp] 302 GET /user/sklbz-addition-manim-h14qlxll/?token=[secret] (@77.243.24.243) 0.99ms
+[I 2026-04-22 09:01:01.051 LabApp] Build is up to date
+[I 2026-04-22 09:01:02.669 ServerApp] New terminal with automatic name: 1
+[W 2026-04-22 09:01:02.923 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[W 2026-04-22 09:01:03.284 ServerApp] 404 GET /user/sklbz-addition-manim-h14qlxll/media/jupyter/Intro@2026-04-20@18-22-18.mp4 (cd052c29621b471bb92f70b6d7af1d20@77.243.24.243) 13.11ms referer=https://hub.gesis.mybinder.org/user/sklbz-addition-manim-h14qlxll/lab
+[W 2026-04-22 09:01:03.287 ServerApp] 404 GET /user/sklbz-addition-manim-h14qlxll/media/jupyter/DotsCreation@2026-04-20@13-59-35.mp4 (cd052c29621b471bb92f70b6d7af1d20@77.243.24.243) 1.39ms referer=https://hub.gesis.mybinder.org/user/sklbz-addition-manim-h14qlxll/lab
+[W 2026-04-22 09:01:03.288 ServerApp] 404 GET /user/sklbz-addition-manim-h14qlxll/media/jupyter/DiscreteLine@2026-04-21@13-34-22.mp4 (cd052c29621b471bb92f70b6d7af1d20@77.243.24.243) 1.64ms referer=https://hub.gesis.mybinder.org/user/sklbz-addition-manim-h14qlxll/lab
+[W 2026-04-22 09:01:03.290 ServerApp] 404 GET /user/sklbz-addition-manim-h14qlxll/files/media/jupyter/Intro%402026-04-20%4018-22-18.mp4?_xsrf=[secret]&1776848463227 (cd052c29621b471bb92f70b6d7af1d20@77.243.24.243) 2.19ms referer=https://hub.gesis.mybinder.org/user/sklbz-addition-manim-h14qlxll/lab
+[W 2026-04-22 09:01:03.291 ServerApp] 404 GET /user/sklbz-addition-manim-h14qlxll/files/media/jupyter/DotsCreation%402026-04-20%4013-59-35.mp4?_xsrf=[secret]&1776848463227 (cd052c29621b471bb92f70b6d7af1d20@77.243.24.243) 2.62ms referer=https://hub.gesis.mybinder.org/user/sklbz-addition-manim-h14qlxll/lab
+[I 2026-04-22 09:01:03.772 ServerApp] Kernel started: 38640d17-9c93-4103-b754-1879a2580893
+[I 2026-04-22 09:01:03.773 ServerApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 2026-04-22 09:01:03.773 ServerApp] Culling kernels even with connected clients
+[I 2026-04-22 09:01:04.331 ServerApp] Connecting to kernel 38640d17-9c93-4103-b754-1879a2580893.
+/srv/conda/envs/notebook/lib/python3.11/json/encoder.py:258: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2026-04-22 09:01:04.491 ServerApp] Starting buffering for 38640d17-9c93-4103-b754-1879a2580893:c5cd8e4c-1334-4831-8deb-049d5944db9a
+[I 2026-04-22 09:01:04.519 ServerApp] Connecting to kernel 38640d17-9c93-4103-b754-1879a2580893.
+[I 2026-04-22 09:01:04.719 ServerApp] Connecting to kernel 38640d17-9c93-4103-b754-1879a2580893.
+[I 2026-04-22 09:02:12.157 ServerApp] Saving file at /addition.ipynb
+[I 2026-04-22 09:04:12.615 ServerApp] Saving file at /addition.ipynb
+[I 2026-04-22 09:06:13.264 ServerApp] Saving file at /addition.ipynb
+[I 2026-04-22 09:08:13.557 ServerApp] Saving file at /addition.ipynb
+[I 2026-04-22 09:10:13.810 ServerApp] Saving file at /addition.ipynb
+[I 2026-04-22 09:12:14.546 ServerApp] Saving file at /addition.ipynb
+[I 2026-04-22 09:14:14.861 ServerApp] Saving file at /addition.ipynb
+[I 2026-04-22 09:15:07.886 ServerApp] Saving file at /addition.ipynb
